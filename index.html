@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>PortFolio</title>
+</head>
+<body>
+
+<!-------------------------sidebar----------------------------->
+
+
+    <div class="sidebar">
+        <div class="logo">
+            <img class="logo" src="image/logo.png">
+            <img class="photo" src="image/user.png">
+        </div>   
+        <div class="social">
+            <a class="social-btn-a" href="#contact">
+                <i class="fa-regular fa-comment-dots"></i>
+            </a>
+            <a class="social-btn" href="https://github.com/arnabkirttania">
+                <i class="fab fa-github"></i>
+            </a>
+            <a class="social-btn" href="https://www.linkedin.com/in/arnabkirttania/">
+                <i class="fa-brands fa-linkedin"></i>
+                
+            </a>
+            <a class="social-btn"  href="https://www.instagram.com/bonnyx.0/">
+                <i class="fab fa-instagram"></i>
+            </a>
+          
+        </div> 
+    </div>
+
+
+
+
+<!-------------------------navbar----------------------------->
+
+    <div class="navbar">
+        
+        <nav>
+            <ul class="navbar-list">
+                <li class="navbar-list-item"><a href="#home"style="--i:1"><span style="color: #31b274">01.</span> Home</a></li>
+                <li class="navbar-list-item"><a href="#about" style="--i:2"><span style="color: #31b274">02.</span> About</a></li>
+                <li class="navbar-list-item"><a href="#portfolio"style="--i:3"><span style="color: #31b274">03.</span>  Projects</a></li>
+                <li class="navbar-list-item"><a href="#photography"style="--i:4"><span style="color: #31b274">04.</span> Photography</a></li>
+                
+            </ul>  
+        </nav>
+    </div>
+
+
+
+<!-------------------------mainwindow----------------------------->
+
+    
+   
+    <div id="home">
+        
+        <div class="name">
+            <h3>Hello, My name is</h3>
+            <h1>Arnab Kirttania.</h1>
+        </div>
+        <div class="desc">
+            <div class="static-text">I'm a</div>
+            <ul class="dynamic-text">
+                <li><span><>Web Designer </span></li>
+                <li><span>#Python Developer </span></li>
+            </ul>
+        </div>
+        <div class="button"><a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            RESUME</a>
+        </div>
+       
+    </div>
+
+
+
+
+ <!-------------------------about------------------------------>
+        
+    
+    <div id="about">
+        <div class="container reveal fade-left">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/codingboy.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>I'm a final year B.Tech Computer Science student passionate about Python and Web design. With expertise in Python programming and skills in HTML, CSS, and JavaScript, I love to develop and deploy elegant websites and efficient problem solutions using Python .I thrive on solving complex problems and staying updated with the latest technologies.I am a quick learner  and am willing to learn new skills and
+                        have many existing ones to offer.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('certifications')">Certifications</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Designing</span><br>Frontend Web Designing</li>
+                            <li><span>Data Structure and Algortithm</span><br>Python</li>
+                            <li><span>Database Management</span><br>SQL/MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>“Google Digital Marketing & E-commerce”</span><br>Coursera</li>
+                            <li><span>“The complete Web Developer in 2023” </span><br> Udemy</li>
+                            <li><span>“Google Data Analytics Professional Certificate” </span><br>Coursera</li>
+                            <li><span>“PYTHON (INTERMEDIATE)”</span><br>HackerRank</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>CSE, University of Engineering and Management</span><br>2024</li>
+                            <li><span>WBCHSE, Helencha High School</span><br> 2019</li>
+                            <li><span>WBBSE, Helencha High School</span><br>2017</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-------------------------portfolio----------------------------->
+
+
+
+
+    <div id="portfolio">
+        <div class="container reveal fade-bottom">
+            <h1 class="sub-title">PROJECTS</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/quesly.jpg" >
+                    <div class="layer">
+                        <h3>Quesly(Informational Online community website)</h3>
+                        <p>A web app where users post question ,answer any questoin and chat with anather users</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/2.png" >
+                    <div class="layer">
+                        <h3>SPACEFIGHTER (PYGAME)</h3>
+                        <p>Had fun developing a popular SPACEFIGHTER game using the pygame module of python.</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/opencart.png" >
+                    <div class="layer">
+                        <h3>OPENCART(E-Commerce Website)</h3>
+                        <p>Worked in a group of 5 to develop a E-commerce website(Front-end) for
+                            college mini-project</p>
+                        <a href="https://anikdhabal.github.io/Opencart-ecommerce/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a  class="portfolio-btn"><span>SEE MORE</span></a>
+        </div>
+    </div> 
+
+
+
+
+
+<!-------------------------photography----------------------------->
+
+
+
+    
+    <div id="photography">
+        <div class="container reveal fade-left ">
+            <div class="sub-title">CHECK OUT MY PHOTOGRAPHY</div>
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+                <img src="image/photo1.JPG" draggable="false">
+                <img src="image/photo2.jpg" draggable="false">
+                <img src="image/photo3.jpg" draggable="false">
+                <img src="image/photo4.jpg" draggable="false">
+                <img src="image/photo5.jpg" draggable="false">
+                
+                <!-- <img src="img/e.jpg" draggable="false">
+                <img src="img/j.jpg" draggable="false">
+                <img src="img/h.jpg" draggable="false">
+                <img src="img/d.jpg" draggable="false"> -->
+               
+                <img src="image/photo6.jpg" draggable="false">
+    
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+
+
+
+<!---------------------contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane" ></i>   arnabkirttania330@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt" ></i> +919064740070</p>
+
+                    <a href="image/mycv.pdf" download class="contact-btn">Download CV</a>
+
+                </div>   
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea rows="6"  name="Message" placeholder="Your Message..."></textarea>
+                        <button type="submit" class="contact-btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+
+        </div>
+
+        
+        <div class="copyright">
+            <p>Copyright &#169; arnab kirttania <img  src="image/logo.png"></p>
+        </div>
+
+        
+    </div>
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+    for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        
+    
+        if (elementTop < windowHeight) {
+        reveals[i].classList.add("active");
+        } else {
+        reveals[i].classList.remove("active");
+        }
+    }
+}
+
+window.addEventListener("scroll", reveal);
+</script>  
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwARm0MdYFdCkz3z5F4h7T0mL7gMor-KLTQI70JWrlQRoU6F6MiQ19hPcLp8cG_qYkaHA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
