@@ -316,18 +316,6 @@ nav a{
     color: #31b274; 
     
 }
-.button:hover{
-    animation-name: heartbeat;
-    animation-duration: 0.7s;
-}
-@keyframes heartbeat{
-0%{
-    transform: zoomin(5px);
-}
-100%{
-    transform: zoomin(10px);
-}
-}
 
 .button a span:nth-child(1){
     position: absolute;
